@@ -9,20 +9,13 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "gitsource==0.0.5",
-    "minsearch==0.1.0",
-    "onnxruntime==1.27.0",
     "openai==2.41.1",
-    "opentelemetry-api==1.44.0",
-    "opentelemetry-sdk==1.44.0",
     "pandas==3.0.3",
     "psycopg[binary]>=3.3.4",
     "python-dotenv==1.2.2",
     "requests==2.34.2",
-    "sentence-transformers==5.6.0",
     "sqlitesearch==0.1.1",
     "streamlit==1.59.2",
-    "tokenizers>=0.22.2",
-    "toyaikit==0.0.11",
     "tqdm==4.68.4",
 ]
 
@@ -35,6 +28,5 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
-    "huggingface-hub>=1.21.0",
     "ipykernel==7.3.0",
 ]
